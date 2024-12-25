@@ -23,6 +23,7 @@ logger.add(
 
 # main.py
 def print_header():
+    cn = pyfiglet.figlet_format("GrassBot")
     print(cn)
     print("🌱 第二季")
 
